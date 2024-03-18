@@ -6,3 +6,7 @@ let changeColor = () => {
 };
 inputBox.addEventListener("input", changeColor);
 window.addEventListener("load", changeColor);
+
+var changeTheColor = () => {
+   console.log(changeTheColor)
+}

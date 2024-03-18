@@ -31,3 +31,9 @@
     border-radius: 0.5em;
     font-family: "Poppins", sans-serif;
   }
+  ::placeholder{
+    /* text-align: center; */
+    padding-left: 4px;
+    margin: 30px;
+  }
+  
