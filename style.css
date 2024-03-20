@@ -4,7 +4,10 @@
     box-sizing: border-box;
   }
   body {
-    background-color: #121317;
+    display: flex;
+    min-height: 100vh;
+    background-color: #000000;
+    margin: 0;
   }
   .container {
     background-color: #202229;
@@ -36,4 +39,21 @@
     padding-left: 4px;
     margin: 30px;
   }
+  .custom-btn {
+    padding: 10px 20px;
+    background-color: #293d4a;
+    color: #fff;
+    padding-left: 100px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
   
+  .custom-btn:hover {
+    background-color: #2980b9;
+  }
