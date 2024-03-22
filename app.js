@@ -8,3 +8,6 @@ let changeColor = ("click", () => {
 inputBox.addEventListener("input", changeColor);
 window.addEventListener("load", changeColor);
 
+startButton.addEventListener("click",()=>{
+  console.log();
+})
